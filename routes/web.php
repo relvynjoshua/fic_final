@@ -9,8 +9,8 @@ Route::get('/', function () {return view('welcome');});
 
 Route::get('/404', function () {return view('404');});
 Route::get('/about', function () {return view('about');});
-Route::get('/contact', function () {return view('documents');});
-Route::get('/documents', function () {return view('form');});
+Route::get('/contact', function () {return view('contact');});
+Route::get('/documents', function () {return view('documents');});
 Route::get('/manual-001', function () {return view('DPM-USTP-FIC-001');});
 Route::get('/manual-002', function () {return view('DPM-USTP-FIC-002');});
 Route::get('/manual-003', function () {return view('DPM-USTP-FIC-003');});

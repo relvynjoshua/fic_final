@@ -132,12 +132,10 @@
             <div class="faq-lis-heading text-center">
                 <div class="solid-box">
                     <h4 style="color:#fff"> 
-                        Hello User! Select which process would you like.
+                        Hello User!
                     </h4>
                     <br>
-                    <a href="login_register.blade.php" class="btn con-btn-login">Login</a>
-                    <br><br>
-                    <a href="login_register.blade.php" class="btn con-btn-login">Register</a>
+                    <a href="{{ url('/sign-in-up') }}" class="btn con-btn-login">Login/Register</a>
                 </div>
             </div> 
         </div>

@@ -27,28 +27,25 @@
      </head>
 
      <style>
-        /* Change button border color for Documents and Data Log Sheets */
+        /* Change button color for Documents and Data Log Sheets */
         .download-section ul li a button {
-            background-color: transparent;
-            color: black; /* Set text color to black */
+            background-color: #F66D34;
+            color: white;
             padding: 10px;
             text-decoration: none;
             display: inline-block;
             margin: 5px 0;
             border-radius: 4px;
-            border: 2px solid #F66D34; /* Border color */
+            border: none;
             min-width: 1140px; 
             max-width: 200px;    
         }
-        
         .download-section ul li a button:hover {
             background-color: #ff9465;
-            color: white; /* Keep text color black on hover */
-            border-color: #ff9465; /* Border color on hover */
         }
-    </style>
-    
-    
+
+     </style>
+
     <body id="main">
         <!-- START PRELOADER -->
         <div id="page-preloader">
