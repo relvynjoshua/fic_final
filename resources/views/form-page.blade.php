@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
         <!--Favicons-->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{asset ('img/favicon.ico') }}" />
   
         <!--Page Title-->
         <title>NMFIC Forms</title>
@@ -251,7 +251,7 @@
                     <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                         <div class="logo">
                         <a href="index.blade.php">
-                        <img class="img-fluid" src="assets/img/fic.jpg" alt="">
+                        <img class="img-fluid" src="{{asset ('img/fic.jpg') }}" alt="">
                         </a>
                         </div>
                     </div>

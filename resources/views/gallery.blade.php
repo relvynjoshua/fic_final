@@ -108,7 +108,7 @@
                   <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                      <div class="logo">
                         <a href="index.blade.php">
-                        <img class="img-fluid" src="assets/img/fic.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/img/fic.jpg') }}" alt="">
                         </a>
                      </div>
                   </div>
@@ -173,7 +173,7 @@
       <!-- END HEADER SECTION -->
 
       <!-- START PAGEBREDCUMS -->
-      <div class="page-banner page-banner-overlay" data-background="assets/img/bldg/logo_night.jpg">
+      <div class="page-banner page-banner-overlay" data-background="{{ asset('assets/img/bldg/logo_night.jpg') }}">
          <div class="container h-100">
             <div class="row h-100">
                <div class="col-lg-12 my-auto">
@@ -210,11 +210,11 @@
             <div class="row project-list">
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 two">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC.jpg') }}" alt="" />
                      <figcaption>
                         <h3>AWARDS</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC.jpg" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC.jpg') }}" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -223,11 +223,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 four">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC1.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC1.jpg') }}" alt="" />
                      <figcaption>
                         <h3>ADMINISTRATION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC1.jpg" data-title="ADMINISTRATION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC1.jpg') }}" data-title="ADMINISTRATION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -236,11 +236,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 two">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC2.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC2.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC2.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC2.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -249,11 +249,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-md-4 mb-4 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC3.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC3.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC3.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC3.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -262,11 +262,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-4 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC4.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC4.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC4.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC4.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -275,11 +275,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC5.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC5.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC5.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC5.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -288,11 +288,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 two">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC6.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC6.jpg') }}" alt="" />
                      <figcaption>
                         <h3>AWARDS</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC6.jpg" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC6.jpg') }}" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -301,11 +301,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC7.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC7.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC7.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC7.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -314,11 +314,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC8.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC8.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC8.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC8.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -327,11 +327,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC9.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC9.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC9.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC9.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -340,11 +340,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC10.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC10.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC10.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC10.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -353,11 +353,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 two">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC11.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC11.jpg') }}" alt="" />
                      <figcaption>
                         <h3>AWARDS</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC11.jpg" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC11.jpg') }}" data-title="AWARDS" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -366,11 +366,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC12.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC12.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC12.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC12.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -379,11 +379,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC13.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('ssets/img/NMFIC13.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PoRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC13.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC13.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -392,11 +392,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC14.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC14.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC14.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC14.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -405,11 +405,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC15.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC15.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC15.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC15.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"<i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -418,11 +418,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC16.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC16.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC16.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC16.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -431,11 +431,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC17.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC17.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC17.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC17.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -444,11 +444,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC18.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC18.jpg') }}" alt="" />
                      <figcaption>
                         <h3>BOOTH</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC18.jpg" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC18.jpg') }}" data-title="BOOTH" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -457,11 +457,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC20.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC20.jpg') }}" alt="" />
                      <figcaption>
                         <h3>PRODUCTION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC20.jpg" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC20.jpg') }}" data-title="PRODUCTION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -470,11 +470,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 four">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="assets/img/NMFIC29.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('assets/img/NMFIC29.jpg') }}" alt="" />
                      <figcaption>
                         <h3>ADMINISTRATION</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="assets/img/NMFIC29.jpg" data-title="ADMINISTRATION" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('assets/img/NMFIC29.jpg') }}" data-title="ADMINISTRATION" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="https://www.facebook.com/nmficustpcdo/photos_by" target="_blank"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -505,14 +505,14 @@
 
            <!-- START FOOTER -->
            <footer class="footer-section">
-            <div id="top-footer" class="overlay-2 section-back-image-2" data-background="assets/img/bg/fic-footer.jpg">
+            <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{ asset('assets/img/bg/fic-footer.jpg') }}">
                <div class="auto-container">
                   <div class="row">
                      <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                         <div class="footer-widget-title col-12 p-0">
                            <div class="logo">
                               <a href="index.blade.php">
-                                 <img class="img-fluid" src="assets/img/ff.png" alt="">
+                                 <img class="img-fluid" src="{{ asset('assets/img/ff.png') }}" alt="">
                               </a>
                            </div>
                         </div>
@@ -535,14 +535,14 @@
                         </div>
                         <div class="footer-widget-inner">
                            <div class="singleRecpost">
-                              <img src="assets/img/NMFIC2.jpg" alt="" class="img-fluid">
+                              <img src="{{ asset('assets/img/NMFIC2.jpg') }}" alt="" class="img-fluid">
                               <h6 class="recTitle">
                                  <a href="#">USTP CDO COVID-19 Initiative</a>
                               </h6>
                               <p class="posted-on">1 APRIL 2020</p>
                            </div>
                            <div class="singleRecpost">
-                              <img src="assets/img/NMFIC4.jpg" alt="" class="img-fluid">
+                              <img src="{{ asset('assets/img/NMFIC4.jpg') }}" alt="" class="img-fluid">
                               <h6 class="recTitle">
                                  <a href="#">FIC produced snacks for COVID-19 frontliners</a>
                               </h6>

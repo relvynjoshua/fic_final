@@ -26,7 +26,7 @@ Route::get('/news', function () {return view('news');});
 Route::get('/services', function () {return view('services');});
 Route::get('/sign-in-up', function () {return view('sign-in-up');});
 Route::get('/single-service', function () {return view('single-service');});
-Route::get('/teachers', function () {return view('teachers');});
+Route::get('/administration', function () {return view('administration');});
 
 Route::get('/dashboard', function () {return view('dashboard');});
 Route::get('/create-news', function () {return view('create-news');});

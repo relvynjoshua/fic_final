@@ -126,7 +126,7 @@
                     <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                         <div class="logo">
                         <a href="index.blade.php">
-                        <img class="img-fluid" src="assets/img/fic.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/img/fic.jpg') }}" alt="">
                         </a>
                         </div>
                     </div>
@@ -310,14 +310,14 @@
 
         <!-- START FOOTER -->
         <footer class="footer-section">
-            <div id="top-footer" class="overlay-2 section-back-image-2" data-background="assets/img/bg/fic-footer.jpg">
+            <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{ asset('assets/img/bg/fic-footer.jpg') }}">
             <div class="auto-container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                         <div class="footer-widget-title col-12 p-0">
                         <div class="logo">
                             <a href="index.blade.php">
-                                <img class="img-fluid" src="assets/img/ff.png" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/img/ff.png') }}" alt="">
                             </a>
                         </div>
                         </div>
@@ -340,14 +340,14 @@
                         </div>
                         <div class="footer-widget-inner">
                         <div class="singleRecpost">
-                            <img src="assets/img/NMFIC2.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/NMFIC2.jpg') }}" alt="" class="img-fluid">
                             <h6 class="recTitle">
                                 <a href="#">USTP CDO COVID-19 Initiative</a>
                             </h6>
                             <p class="posted-on">1 APRIL 2020</p>
                         </div>
                         <div class="singleRecpost">
-                            <img src="assets/img/NMFIC4.jpg" alt="" class="img-fluid">
+                            <img src="{{ asset('assets/img/NMFIC4.jpg') }}" alt="" class="img-fluid">
                             <h6 class="recTitle">
                                 <a href="#">FIC produced snacks for COVID-19 frontliners</a>
                             </h6>

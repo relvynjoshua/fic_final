@@ -196,7 +196,7 @@
                </div>
             </div>
             <!-- end single slider -->
-            <div class="home-single-slide" data-background="public/img/bldg/logo_day2.jpg">
+            <div class="home-single-slide" data-background=" {{ asset('public/img/bldg/logo_day2.jpg') }}">
                <div class="home-single-slide-overlay"></div>
                <div class="home-single-slide-inner">
                   <div class="container">
@@ -217,7 +217,7 @@
                </div>
             </div>
             <!-- end single slider -->
-            <div class="home-single-slide" data-background="public/img/bldg/bldg1_night.jpg">
+            <div class="home-single-slide" data-background="{{ asset('public/img/bldg/bldg1_night.jpg') }}">
                <div class="home-single-slide-overlay"></div>
                <div class="home-single-slide-inner">
                   <div class="container">
@@ -238,7 +238,7 @@
                </div>
             </div>
             <!-- end single slider -->
-            <div class="home-single-slide" data-background="public/img/bldg/logo_night.jpg">
+            <div class="home-single-slide" data-background="{{ asset('public/img/bldg/logo_night.jpg') }}">
                <div class="home-single-slide-overlay"></div>
                <div class="home-single-slide-inner">
                   <div class="container">
@@ -287,7 +287,8 @@
                   <div class="about-wel-img-sec img-overlay">
                      <a class="venobox" data-autoplay="true" data-vbtype="video" data-title="Intro Video" data-gall="videoh" href="https://www.youtube.com/embed/Oq61TxejZ5g"><i class="icofont-play-alt-2"></i></a>
                      <div class="img-wrap">
-                        <img class="img-fluid" src="public/img/bg/home-about-img.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/bg/home-about-img.jpg') }}" alt="">
+
                      </div>
                   </div>
                </div>
@@ -363,7 +364,7 @@
       <!-- END SERVICES SECTION -->
 
       <!-- START COUNTER SECTION -->
-      <section id="counter" class="counter-padding overlay section-back-image" data-background="public/img/bg/ustp3.png">
+      <section id="counter" class="counter-padding overlay section-back-image" data-background="{{ asset('public/img/bg/ustp3.png') }}">
          <div class="auto-container">
             <div class="row">
                <div class="col-lg-8 col-md-8 col-12 mx-lg-auto mx-md-auto mx-0">
@@ -433,7 +434,8 @@
                   <div class="team-slides owl-carousel owl-theme">
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/sevenseven.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/sevenseven.png') }}" alt="">
+
                            <div class="single-team-member-content">
                               
                               <div class="single-team-member-text">
@@ -446,7 +448,8 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/bossamo.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/bossamo.png') }}" alt="">
+
                            <div class="single-team-member-content">
 
                               <div class="single-team-member-text">
@@ -459,7 +462,8 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/threethree.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/threethree.png') }}" alt="">
+
                            <div class="single-team-member-content">
       
                               <div class="single-team-member-text">
@@ -472,7 +476,8 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/eighteight.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/eighteight.png') }}" alt="">
+
                            <div class="single-team-member-content">
                               
                               <div class="single-team-member-text">
@@ -485,7 +490,8 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/ninenine.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/ninenine.png') }}" alt="">
+
                            <div class="single-team-member-content">
                               
                               <div class="single-team-member-text">
@@ -498,7 +504,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/fivefive.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/fivefive.png') }}" alt="">
                            <div class="single-team-member-content">
                              
                               <div class="single-team-member-text">
@@ -511,7 +517,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/twotwo.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/twotwo.png') }}" alt="">
                            <div class="single-team-member-content">
                               
                               <div class="single-team-member-text">
@@ -524,7 +530,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/oneone.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/oneone.png') }}" alt="">
                            <div class="single-team-member-content">
                               
                               <div class="single-team-member-text">
@@ -537,7 +543,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/fourfour.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/fourfour.png') }}" alt="">
                            <div class="single-team-member-content">
                              
                               <div class="single-team-member-text">
@@ -550,7 +556,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/sixsix.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/sixsix.png') }}" alt="">
                            <div class="single-team-member-content">
                              
                               <div class="single-team-member-text">
@@ -563,7 +569,7 @@
                      <!-- End single team item -->
                      <div class="single-team-wrapper">
                         <div class="single-team-member">
-                           <img class="img-fluid" src="public/img/team/10.png" alt="">
+                           <img class="img-fluid" src="{{ asset('public/img/team/10.png') }}" alt="">
                            <div class="single-team-member-content">
                              
                               <div class="single-team-member-text">
@@ -583,7 +589,7 @@
       <!-- END TEAM SECTION -->
 
       <!-- START TESTIMONIAL & FAQ SECTION -->
-      <section id="testimonial" class="section-padding overlay section-back-image" data-background="public/img/bg/ustp4.png">
+      <section id="testimonial" class="section-padding overlay section-back-image" data-background=" {{ asset('public/img/bg/ustp4.png') }}">
          <div class="auto-container">
             <div class="row ml-lg-4 ml-md-4 ml-0 mr-lg-4 mr-md-4 mr-0">
                <div class="col-lg-6 col-md-12 col-12 mb-lg-0 mb-md-5 mb-5">
@@ -592,7 +598,7 @@
                   </div>
                   <!-- end section title -->
                   <div class="owl-carousel owl-theme testimonial-wrapper">
-                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src='public/img/testimonial/person.jpg'/>">
+                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src={{ asset('public/img/testimonial/person.jpg') }}/>">
                         <div class="testimonial-inner">
                            <div class="tes-quote">
                               <i class="icofont-quote-left"></i>
@@ -605,7 +611,7 @@
                         </div>
                      </div>
                      <!-- end single item -->
-                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src='public/img/testimonial/person2.jpg'/>">
+                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src={{ asset('public/img/testimonial/person2.jpg') }}/>">
                         <div class="testimonial-inner">
                            <div class="tes-quote">
                               <i class="icofont-quote-left"></i>
@@ -618,7 +624,7 @@
                         </div>
                      </div>
                      <!-- end single item -->
-                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src='public/img/testimonial/person3.jpg'/>">
+                     <div class="item" data-dot="<img class='testimonial-thumb rounded' src={{ asset('public/img/testimonial/person3.jpg') }}/>">
                         <div class="testimonial-inner">
                            <div class="tes-quote">
                               <i class="icofont-quote-left"></i>
@@ -716,11 +722,12 @@
             <div class="row project-list">
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 two">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC.jpg') }}" alt="" />
+
                      <figcaption>
                         <h3>NMFIC Awards</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -729,11 +736,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 four">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC1.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC1.jpg') }}" alt="" />
                      <figcaption>
                         <h3>Administration</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC1.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC1.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -742,11 +749,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-lg-4 mb-md-4 mb-4 two four">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC2.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC2.jpg') }}" alt="" />
                      <figcaption>
                         <h3>Amazing Innovators</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC2.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC2.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -755,11 +762,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 two mb-md-4 mb-4 one three">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC3.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC3.jpg') }}" alt="" />
                      <figcaption>
                         <h3>Food Production</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC3.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC3.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -768,11 +775,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 mb-4 two one">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC4.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC4.jpg') }}" alt="" />
                      <figcaption>
                         <h3>Food Production</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC4.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC4.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -781,11 +788,11 @@
                <!--  end single item -->
                <div class="col-lg-4 col-md-6 col-12 one three four">
                   <figure class="portfolio-sin-item">
-                     <img class="img-fluid" src="public/img/NMFIC5.jpg" alt="" />
+                     <img class="img-fluid" src="{{ asset('public/img/NMFIC5.jpg') }}" alt="" />
                      <figcaption>
                         <h3>NMFIC Booth</h3>
                         <div class="port-icon mt-3">
-                           <a class="icon-ho venobox" href="public/img/NMFIC5.jpg" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
+                           <a class="icon-ho venobox" href="{{ asset('public/img/NMFIC5.jpg') }}" data-title="PORTFOLIO TITTLE" data-gall="gall1"><i class="icofont-eye"></i></a>
                            <a class="icon-ho" href="#"><i class="icofont-link"></i></a>
                         </div>
                      </figcaption>
@@ -821,7 +828,7 @@
                   <div class="blog-slides owl-carousel owl-theme">
                      <div class="blog-home-single">
                         <div class="blog-home-image">
-                           <img class="img-fluid" src="public/img/blog/FIC.jpg" alt=""/>
+                           <img class="img-fluid" src="{{ asset('public/img/blog/FIC.jpg') }}" alt=""/>
                            <div class="blog-home-post-date">
                               <i class="icofont-clock-time"></i>
                               <span>May 18, 2021</span>
@@ -831,7 +838,7 @@
                            
                            <div class="blog-home-des-right">
                               <div class="havator">
-                                 <img class="img-fluid" src="public/img/testimonial/person.jpg" alt=""/>
+                                 <img class="img-fluid" src="{{ asset('public/img/testimonial/person.jpg') }}" alt=""/>
                               </div>
                               <div class="blog-home-meta">
                                  <span>Post By<a href="#">USTP - FIC</a></span>
@@ -850,7 +857,7 @@
                      <!--  end single item -->
                      <div class="blog-home-single">
                         <div class="blog-home-image">
-                           <img class="img-fluid" src="public/img/blog/FIC2.jpg" alt=""/>
+                           <img class="img-fluid" src="{{ asset('public/img/blog/FIC2.jpg') }}" alt=""/>
                            <div class="blog-home-post-date">
                               <i class="icofont-clock-time"></i>
                               <span>May 17, 2021</span>
@@ -860,7 +867,7 @@
                            
                            <div class="blog-home-des-right">
                               <div class="havator">
-                                 <img class="img-fluid" src="public/img/testimonial/person2.jpg" alt=""/>
+                                 <img class="img-fluid" src="{{ asset('public/img/testimonial/person2.jpg') }}" alt=""/>
                               </div>
                               <div class="blog-home-meta">
                                  <span>Post By<a href="#">USTP - FIC</a></span>
@@ -879,7 +886,7 @@
                      <!--  end single item -->
                      <div class="blog-home-single">
                         <div class="blog-home-image">
-                           <img class="img-fluid" src="public/img/blog/FIC3.jpg" alt=""/>
+                           <img class="img-fluid" src="{{ asset('public/img/blog/FIC3.jpg') }}" alt=""/>
                            <div class="blog-home-post-date">
                               <i class="icofont-clock-time"></i>
                               <span>May 16, 2021</span>
@@ -889,7 +896,7 @@
                            
                            <div class="blog-home-des-right">
                               <div class="havator">
-                                 <img class="img-fluid" src="public/img/testimonial/person3.jpg" alt=""/>
+                                 <img class="img-fluid" src="{{ asset('public/img/testimonial/person3.jpg') }}" alt=""/>
                               </div>
                               <div class="blog-home-meta">
                                  <span>Post By<a href="#">USTP - FIC</a></span>
@@ -908,7 +915,7 @@
                      <!--  end single item -->
                      <div class="blog-home-single">
                         <div class="blog-home-image">
-                           <img class="img-fluid" src="public/img/blog/FIC4.jpg" alt=""/>
+                           <img class="img-fluid" src="{{ asset('public/img/blog/FIC4.jpg') }}" alt=""/>
                            <div class="blog-home-post-date">
                               <i class="icofont-clock-time"></i>
                               <span>May 15, 2021</span>
@@ -918,7 +925,7 @@
                            
                            <div class="blog-home-des-right">
                               <div class="havator">
-                                 <img class="img-fluid" src="public/img/testimonial/person4.jpg" alt=""/>
+                                 <img class="img-fluid" src="{{ asset('public/img/testimonial/person4.jpg') }}" alt=""/>
                               </div>
                               <div class="blog-home-meta">
                                  <span>Post By<a href="#">USTP - FIC</a></span>
@@ -945,14 +952,14 @@
 
       <!-- START FOOTER -->
       <footer class="footer-section">
-         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="public/img/bg/fic-footer.jpg">
+         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{ asset('public/img/bg/fic-footer.jpg') }}">
             <div class="auto-container">
                <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                      <div class="footer-widget-title col-12 p-0">
                         <div class="logo">
                            <a href="index.blade.php">
-                              <img class="img-fluid" src="public/img/ff.png" alt="">
+                              <img class="img-fluid" src="{{ asset('public/img/ff.png') }}" alt="">
                            </a>
                         </div>
                      </div>
@@ -975,14 +982,14 @@
                      </div>
                      <div class="footer-widget-inner">
                         <div class="singleRecpost">
-                           <img src="public/img/NMFIC2.jpg" alt="" class="img-fluid">
+                           <img src="{{ asset('public/img/NMFIC2.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">USTP CDO COVID-19 Initiative</a>
                            </h6>
                            <p class="posted-on">1 APRIL 2020</p>
                         </div>
                         <div class="singleRecpost">
-                           <img src="public/img/NMFIC4.jpg" alt="" class="img-fluid">
+                           <img src="{{ asset('public/img/NMFIC4.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">FIC produced snacks for COVID-19 frontliners</a>
                            </h6>

@@ -148,8 +148,8 @@
     
     <style>
     :root {
-        --primary-color: #4EA685;
-        --secondary-color: #57B894;
+        --primary-color: #F66D34;
+        --secondary-color: #F66D34;
         --black: #000000;
         --white: #ffffff;
         --gray: #efefef;

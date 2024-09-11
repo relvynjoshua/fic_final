@@ -1,4 +1,4 @@
-91% of storage used … If you run out, you can't create, edit and upload files. Get 100 GB of storage for ₱89.00 ₱22.25/month for 2 months.
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -11,7 +11,7 @@
       <meta name="keywords" content=""/>
 
       <!--Favicons-->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+      <link rel="shortcut icon" type="image/x-icon" href="{{asset ('img/favicon.ico') }}" />
 
       <!--Page Title-->
       <title>NMFIC - Mock Website</title>
@@ -109,7 +109,7 @@
                   <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                      <div class="logo">
                         <a href="index.blade.php">
-                        <img class="img-fluid" src="assets/img/fic.jpg" alt="">
+                        <img class="img-fluid" src="{{asset ('img/fic.jpg') }}" alt="">
                         </a>
                      </div>
                   </div>
@@ -174,7 +174,7 @@
       <!-- END HEADER SECTION -->
 
       <!-- START PAGEBREDCUMS -->
-      <div class="page-banner page-banner-overlay" data-background="assets/img/bg/ustp.png">
+      <div class="page-banner page-banner-overlay" data-background="{{asset ('img/bg/ustp.png') }}">
          <div class="container h-100">
             <div class="row h-100">
                <div class="col-lg-12 my-auto">
@@ -285,7 +285,7 @@
                         <div class="text-center wow fadeInUp">
                             <div class="actions">
                                 <input value="SUBMIT MESSAGE" name="submit" id="submitButton" class="btn con-btn" title="Click here to submit your message!" type="submit">
-                                <img src="assets/img/ajax-loader.gif" id="loader" style="display:none" alt="loading" width="16" height="16">
+                                <img src="{{asset ('img/ajax-loader.gif') }}" id="loader" style="display:none" alt="loading" width="16" height="16">
                             </div>
                         </div>
                      </form>
@@ -309,14 +309,14 @@
 
       <!-- START FOOTER -->
       <footer class="footer-section">
-         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="assets/img/bg/fic-footer.jpg">
+         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{asset ('img/bg/fic-footer.jpg') }}">
             <div class="auto-container">
                <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                      <div class="footer-widget-title col-12 p-0">
                         <div class="logo">
                            <a href="index.blade.php">
-                              <img class="img-fluid" src="assets/img/ff.png" alt="">
+                              <img class="img-fluid" src="{{asset ('img/ff.png') }}" alt="">
                            </a>
                         </div>
                      </div>
@@ -339,14 +339,14 @@
                      </div>
                      <div class="footer-widget-inner">
                         <div class="singleRecpost">
-                           <img src="assets/img/NMFIC2.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/NMFIC2.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">USTP CDO COVID-19 Initiative</a>
                            </h6>
                            <p class="posted-on">1 APRIL 2020</p>
                         </div>
                         <div class="singleRecpost">
-                           <img src="assets/img/NMFIC4.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/NMFIC4.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">FIC produced snacks for COVID-19 frontliners</a>
                            </h6>

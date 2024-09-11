@@ -11,7 +11,7 @@
       <meta name="keywords" content=""/>
 
       <!--Favicons-->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset ('img/favicon.ico') }}" />
 
       <!--Page Title-->
       <title>NMFIC - Mock Website</title>
@@ -75,7 +75,7 @@
                   <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                      <div class="logo">
                         <a href="index.blade.php">
-                        <img class="img-fluid" src="assets/img/fic.jpg" alt="">
+                        <img class="img-fluid" src="{{asset ('img/fic.jpg') }}" alt="">
                         </a>
                      </div>
                   </div>
@@ -175,7 +175,7 @@
       <!-- END HEADER SECTION -->
 
       <!-- START PAGEBREDCUMS -->
-      <div class="page-banner page-banner-overlay" data-background="assets/img/bg/banner-bg.jpg">
+      <div class="page-banner page-banner-overlay" data-background="{{asset ('img/bg/banner-bg.jpg') }}">
          <div class="container h-100">
             <div class="row h-100">
                <div class="col-lg-12 my-auto">
@@ -211,7 +211,7 @@
                                <div class="item">
                                    <div class="gallery-slides-inner">
                                         <figure>
-                                           <img class="img-fluid" src="assets/img/service/1.jpg" alt="">
+                                           <img class="img-fluid" src="{{asset ('img/service/1.jpg') }}" alt="">
                                            <figcaption class="overlay text-center">Image Caption One.</figcaption>
                                        </figure> 
                                    </div>
@@ -220,7 +220,7 @@
                                <div class="item">
                                    <div class="gallery-slides-inner">
                                         <figure>
-                                           <img class="img-fluid" src="assets/img/service/2.jpg" alt="">
+                                           <img class="img-fluid" src="{{asset ('img/service/2.jpg') }}" alt="">
                                            <figcaption class="overlay text-center">Image Caption two.</figcaption>
                                        </figure> 
                                    </div>
@@ -229,7 +229,7 @@
                                <div class="item">
                                    <div class="gallery-slides-inner">
                                         <figure>
-                                           <img class="img-fluid" src="assets/img/service/3.jpg" alt="">
+                                           <img class="img-fluid" src="{{asset ('img/service/3.jpg') }}" alt="">
                                            <figcaption class="overlay text-center">Image Caption Three.</figcaption>
                                        </figure> 
                                    </div>
@@ -238,7 +238,7 @@
                                <div class="item">
                                    <div class="gallery-slides-inner">
                                         <figure>
-                                           <img class="img-fluid" src="assets/img/service/4.jpg" alt="">
+                                           <img class="img-fluid" src="{{asset ('img/service/4.jpg') }}" alt="">
                                            <figcaption class="overlay text-center">Image Caption Four.</figcaption>
                                        </figure> 
                                    </div>
@@ -247,7 +247,7 @@
                                <div class="item">
                                    <div class="gallery-slides-inner">
                                         <figure>
-                                           <img class="img-fluid" src="assets/img/service/5.jpg" alt="">
+                                           <img class="img-fluid" src="{{asset ('img/service/5.jpg') }}" alt="">
                                            <figcaption class="overlay text-center">Image Caption Five.</figcaption>
                                        </figure> 
                                    </div>
@@ -274,7 +274,7 @@
                            <a href="#">News 2</a>
                         </h4>
                         <div class="single-blog-post-img">
-                           <img class="img-fluid" src="assets/img/blog/1.jpg" alt="">
+                           <img class="img-fluid" src="{{asset ('img/blog/1.jpg') }}" alt="">
                         </div>
                         <p>
                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
@@ -364,17 +364,17 @@
                             <h5>Recent Post</h5>
                         </div>
                         <div class="singleRecpost">
-                           <img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/blog/1.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle"><a href="#">News Title</a></h6>
                            <p class="posted-on">3 DEC 2021</p>
                         </div>
                         <div class="singleRecpost">
-                           <img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/blog/2.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle"><a href="#">News Title</a></h6>
                            <p class="posted-on">3 DEC 2021</p>
                         </div>
                         <div class="singleRecpost">
-                           <img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/blog/3.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle"><a href="#">News Title</a></h6>
                            <p class="posted-on">3 DEC 2021</p>
                         </div>
@@ -400,39 +400,39 @@
                         </div>
                         <div class="single-gallery-wrap">
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/1.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/1.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/2.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/2.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/3.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/3.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/4.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/4.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/5.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/5.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/gallery/6.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/gallery/6.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/service/1.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/service/1.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/service/2.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/service/2.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                            <div class="single-gallery">
-                              <a href="#"><img class="img-fluid" src="assets/img/service/3.jpg" alt=""></a>
+                              <a href="#"><img class="img-fluid" src="{{ asset ('img/service/3.jpg') }}" alt=""></a>
                               <a href="#" class="icon"><i class="icofont-link"></i></a>                         
                            </div>
                         </div>         
@@ -445,7 +445,7 @@
                            <h5>Promo Box</h5>
                         </div>
                         <div class="pro-box overlay">
-                            <img class="img-fluid" src="assets/img/bg/promo-box-img.jpg" alt="">
+                            <img class="img-fluid" src="{{asset ('img/bg/promo-box-img.jpg') }}" alt="">
                             <div class="pro-box-inner text-center">
                                 <h4>New Offers <br> Going On</h4>
                                 <a href="#">GET IT <i class="fas fa-caret-right"></i></a>
@@ -506,14 +506,14 @@
 
       <!-- START FOOTER -->
       <footer class="footer-section">
-         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="assets/img/bg/footer-bg.jpg">
+         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{asset ('img/bg/footer-bg.jpg') }}">
             <div class="auto-container">
                <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                      <div class="footer-widget-title col-12 p-0">
                         <div class="logo">
                            <a href="index.blade.php">
-                              <img class="img-fluid" src="assets/img/ff.png" alt="">
+                              <img class="img-fluid" src="{{asset ('img/ff.png') }}" alt="">
                            </a>
                         </div>
                      </div>
@@ -538,14 +538,14 @@
                      </div>
                      <div class="footer-widget-inner">
                         <div class="singleRecpost">
-                           <img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/blog/1.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">News Title</a>
                            </h6>
                            <p class="posted-on">18 MAY 2021</p>
                         </div>
                         <div class="singleRecpost">
-                           <img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
+                           <img src="{{asset ('img/blog/2.jpg') }}" alt="" class="img-fluid">
                            <h6 class="recTitle">
                               <a href="#">News Title</a>
                            </h6>
