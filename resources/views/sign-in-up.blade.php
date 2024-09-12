@@ -7,103 +7,114 @@
     
 </head>
 <body>
-    <div id="container" class="container">
-        <!-- FORM SECTION -->
-        <div class="row">
-            <!-- SIGN UP -->
-            <div class="col align-items-center flex-col sign-up">
-                <div class="form-wrapper align-items-center">
-                    <div class="form sign-up">
-                        <div class="input-group">
-                            <i class='bx bxs-user'></i>
-                            <input type="text" placeholder="Firstname" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-user'></i>
-                            <input type="text" placeholder="Lastname" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-user'></i>
-                            <select required>
-                                <option value="">Select Role</option>
-                                <option value="student">Student</option>
-                                <option value="msme">MSME</option>
-                                <option value="teacher">Teacher</option>
-                            </select>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-user'></i>
-                            <input type="text" placeholder="Username" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bx-mail-send'></i>
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-lock-alt'></i>
-                            <input type="password" placeholder="Password" minlength="5" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-lock-alt'></i>
-                            <input type="password" placeholder="Confirm password" minlength="5" required>
-                        </div>
-                        <button>
-                            Sign up
-                        </button>
-                        <p>
-                            <span>
-                                Already have an account?
-                            </span>
-                            <b onclick="toggle()" class="pointer">
-                                Sign in here
-                            </b>
-                        </p>
-                    </div>
+<div id="container" class="container">
+    <!-- FORM SECTION -->
+    <div class="row">
+        <!-- SIGN UP -->
+        <div class="col align-items-center flex-col sign-up">
+            <div class="form-wrapper align-items-center">
+                <div class="form sign-up">
+                <form action="{{ route('register') }}" method="POST">
+    @csrf
+    <div class="input-group">
+        <i class='bx bxs-user'></i>
+        <input type="text" name="firstname" placeholder="Firstname" value="{{ old('firstname') }}" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-user'></i>
+        <input type="text" name="lastname" placeholder="Lastname" value="{{ old('lastname') }}" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-user'></i>
+        <select name="role" required>
+            <option value="">Select Role</option>
+            <option value="student" {{ old('role') == 'student' ? 'selected' : '' }}>Student</option>
+            <option value="msme" {{ old('role') == 'msme' ? 'selected' : '' }}>MSME</option>
+            <option value="teacher" {{ old('role') == 'teacher' ? 'selected' : '' }}>Teacher</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-user'></i>
+        <input type="text" name="username" placeholder="Username" value="{{ old('username') }}" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bx-mail-send'></i>
+        <input type="email" name="email" placeholder="Email" value="{{ old('email') }}" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" name="password" placeholder="Password" minlength="5" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" name="password_confirmation" placeholder="Confirm password" minlength="5" required>
+    </div>
+    <button type="submit">Sign up</button>
+</form>
+                    <p>
+                        <span>
+                            Already have an account?
+                        </span>
+                        <b onclick="toggle()" class="pointer">
+                            Sign in here
+                        </b>
+                    </p>
                 </div>
             </div>
-            <!-- END SIGN UP -->
-            <!-- SIGN IN -->
-            <div class="col align-items-center flex-col sign-in">
-                <div class="form-wrapper align-items-center">
-                    <div class="form sign-in">
-                        <div class="input-group">
-                            <i class='bx bxs-user'></i>
-                            <input type="text" placeholder="Username" required>
-                        </div>
-                        <div class="input-group">
-                            <i class='bx bxs-lock-alt'></i>
-                            <input type="password" placeholder="Password" minlength="5" required>
-                        </div>
-                        <button>
-                            Sign in
-                        </button>
-                        <p>
-                            <b onclick="forgotPassword()" class="pointer">
-                                Forgot password?
-                            </b>
-                        </p>
-                        <p>
-                            <span>
-                                Don't have an account?
-                            </span>
-                            <b onclick="toggle()" class="pointer">
-                                Sign up here
-                            </b>
-                        </p>
-                    </div>
-                </div>
-                <!-- Forgot Password Modal -->
-                    <div id="forgot-password-modal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-btn" onclick="closeForgotPasswordModal()">&times;</span>
-                        <h2>Forgot Password</h2>
-                        <p>Please enter your email address. You will receive a link to create a new password via email.</p>
-                <div class="input-group">
-            <i class='bx bx-mail-send'></i>
-                <input type="email" id="forgot-password-email" placeholder="Email" required>
-            </div>
-            <button onclick="submitForgotPassword()">Submit</button>
         </div>
+        <!-- END SIGN UP -->
+
+        <!-- SIGN IN -->
+        <div class="col align-items-center flex-col sign-in">
+            <div class="form-wrapper align-items-center">
+                <div class="form sign-in">
+                <form action="{{ route('login') }}" method="POST">
+    @csrf
+    <div class="input-group">
+        <i class='bx bxs-user'></i>
+        <input type="text" name="username" placeholder="Username" value="{{ old('username') }}" required>
+    </div>
+    <div class="input-group">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" name="password" placeholder="Password" minlength="5" required>
+    </div>
+    <button type="submit">Sign in</button>
+</form>
+
+                    <p>
+                        <b onclick="forgotPassword()" class="pointer">
+                            Forgot password?
+                        </b>
+                    </p>
+                    <p>
+                        <span>
+                            Don't have an account?
+                        </span>
+                        <b onclick="toggle()" class="pointer">
+                            Sign up here
+                        </b>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Forgot Password Modal -->
+            <div id="forgot-password-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeForgotPasswordModal()">&times;</span>
+                    <h2>Forgot Password</h2>
+                    <p>Please enter your email address. You will receive a link to create a new password via email.</p>
+                    <div class="input-group">
+                        <i class='bx bx-mail-send'></i>
+                        <input type="email" id="forgot-password-email" placeholder="Email" required>
+                    </div>
+                    <button onclick="submitForgotPassword()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- END SIGN IN -->
+    </div>
+</div>
+
         
     </div>
     <div id="custom-alert" class="custom-alert">

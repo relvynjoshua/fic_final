@@ -47,25 +47,25 @@
                      <div class="col-lg-9 d-none d-lg-block d-md-none">
                         <nav class="navbar navbar-expand-lg justify-content-left">
                            <ul class="navbar-nav">
-                              <li><a href="index.blade.php" class="nav-link">Home</a></li>
-                              <li><a href="about.blade.php" class="nav-link">About Us</a></li>
-                              <li class="dropdown"><a class="nav-link" href="services.blade.php">Services</a>
+                              <li class="active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                              <li><a href="{{ url('/about') }}" class="nav-link">About Us</a></li>
+                              <li class="dropdown"><a class="nav-link" href="{{ url('/services') }}">Services</a>
                                  <ul class="dropdown-menu">
-                                    <li><a href="documents.blade.php">Documents</a></li>
-                                    <li><a href="form-page.blade.php">Forms</a></li>
-                                    <li><a href="single-service.blade.php">Facilities</a></li>
+                                    <li><a href="{{ url('/documents') }}">Documents</a></li>
+                                    <li><a href="{{ url('/form-page') }}">Forms</a></li>
+                                    <li><a href="{{ url('/single-service') }}">Facilities</a></li>
                                  </ul>    
                               </li>
-                              <li><a href="gallery.blade.php" class="nav-link">Gallery</a></li>
+                              <li><a href="{{ url('/gallery') }}" class="nav-link">Gallery</a></li>
                               <li class="dropdown"><a class="nav-link" href="#">Pages</a>
                                  <ul class="dropdown-menu">
-                                    <li><a href="teachers.blade.php">Administration</a></li>
-                                    <li><a href="faq.blade.php">FAQ</a></li>
+                                    <li><a href="{{ url('/administration') }}">Administration</a></li>
+                                    <li><a href="{{ url('/') }}">FAQ</a></li>
                                  </ul>
                               </li>
-                              <li><a class="nav-link" href="blog.blade.php">News</a></li>
-                              <li><a href="contact.blade.php" class="nav-link">Contact</a></li>
-                              <li><a href="contact.blade.php" class="nav-link">Admin</a></li>
+                              <li><a href="{{ url('/news') }}" class="nav-link" >News</a></li>
+                              <li><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
+                              <li><a href="{{ url('/sign-in-up') }}" class="nav-link">Login</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -107,7 +107,7 @@
                <div class="row">
                   <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                      <div class="logo">
-                        <a href="index.blade.php">
+                        <a href="{{ url('/') }}">
                         <img class="img-fluid" src="{{ asset('assets/img/fic.jpg') }}" alt="">
                         </a>
                      </div>
@@ -353,11 +353,11 @@
                         </div>
                         <div class="footer-widget-inner">
                            <ul>
-                              <li><a href="documents.blade.php"><i class="icofont-circled-right"></i> Documents</a></li>
-                              <li><a href="services.blade.php"><i class="icofont-circled-right"></i> Latest Services</a></li>
-                              <li><a href="admin.blade.php"><i class="icofont-circled-right"></i> Administration</a></li>
-                              <li><a href="gallery.blade.php"><i class="icofont-circled-right"></i> Image Gallery</a></li>
-                              <li><a href="faq.blade.php"><i class="icofont-circled-right"></i> FAQs</a></li>
+                              <li><a href="{{ url('/documents') }}"><i class="icofont-circled-right"></i> Documents</a></li>
+                              <li><a href="{{ url('/services') }}"><i class="icofont-circled-right"></i> Latest Services</a></li>
+                              <li><a href="{{ url('/administration') }}"><i class="icofont-circled-right"></i> Administration</a></li>
+                              <li><a href="{{ url('/gallery') }}"><i class="icofont-circled-right"></i> Image Gallery</a></li>
+                              <li><a href="{{ url('/') }}"><i class="icofont-circled-right"></i> FAQs</a></li>
                            </ul>
                         </div>
                      </div>
@@ -417,9 +417,9 @@
                      <div class="col-lg-6 col-md-12 col-12">
                         <div class="footer-menu">
                            <ul>
-                              <li><a href="index.blade.php">Home</a></li>
-                              <li><a href="about.blade.php">About Us</a></li>
-                              <li><a href="contact.blade.php">Contact Us</a></li>
+                              <li><a href="{{ url('/index') }}">Home</a></li>
+                              <li><a href="{{ url('/about') }}">About Us</a></li>
+                              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                               <li><a href="#">Privacy Policy</a></li>
                            </ul>
                         </div>

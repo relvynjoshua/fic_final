@@ -39,7 +39,7 @@ return new class extends Migration
             $table->date('open_date')->nullable();
             $table->string('phase')->nullable();
             $table->string('file_input')->nullable();
-            $table->longblob('upload_gantt')->nullable();
+            $table->binary('some_column_name');
             $table->string('activity_team')->nullable();
             $table->string('role')->nullable();
             $table->string('responsibility')->nullable();

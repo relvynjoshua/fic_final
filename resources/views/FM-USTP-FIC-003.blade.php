@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #F03322;
+    background-color: #F66D34;
     color: #fff;
     position: relative;
 }
@@ -51,7 +51,7 @@ body {
 
 .header .back-button {
     background-color: #fff;
-    color: #F03322;
+    color: #F66D34;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -59,7 +59,7 @@ body {
 }
 
 .header .back-button:hover {
-    background-color: #F03322;
+    background-color: #F66D34;
     color: #fff;
 }
 
@@ -109,17 +109,17 @@ h1 {
 }
 
 .container1 h2 {
-            border-bottom: 2px solid #F03322;
+            border-bottom: 2px solid #F66D34;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            color: #F03322;
+            color: #F66D34;
             text-align: center;
             font-size: 30px;
         }
 
 .container1 p {
             margin: 10px 0 20px 0;
-            color: #F03322;
+            color: #F66D34;
             text-align: center;
             margin-top: 40px;
             font-size: 18px;
@@ -154,8 +154,8 @@ h1 {
 .section h3 {
     margin-bottom: 10px;
     font-size: 1.5em;
-    color: #F03322;
-    border-bottom: 2px solid #F03322;
+    color: #F66D34;
+    border-bottom: 2px solid #F66D34;
     padding-bottom: 5px;
 }
 
@@ -232,7 +232,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background: #F03322;
+    background: #F66D34;
     border: none;
     border-radius: 4px;
     text-decoration: none;
@@ -242,7 +242,7 @@ h1 {
 }
 
 .btn:hover {
-    background: #F03322;
+    background: #F66D34;
 }
 
 .welcome-btn {
@@ -264,7 +264,7 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="date"] {
 
 
     <div class="header">
-        <a href="DPM-USTP-FIC-004.blade.php">
+        <a href="{{ url('/manual-004') }}">
             <img src="assets/img/fic.jpg" alt="Logo" class="clickable-img">
         </a>
         <div class="document-code">FM-USTP-FIC-03</div>
@@ -449,7 +449,7 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="date"] {
                         <input type="text" id="NameSig" name="NameSig"><br>
                 
             <div class="welcome-btn">
-                <a href="DPM-USTP-FIC-004.blade.php" class="btn"><i class="icofont icofont-caret-left"></i>Go Back</a>
+                <a href="{{ url('/manual-004') }}" class="btn"><i class="icofont icofont-caret-left"></i>Go Back</a>
                 <button type="submit" class="btn">Submit</button>
             </div>
         </form>

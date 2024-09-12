@@ -633,7 +633,7 @@ fieldset {
 .logo-area .header-info-box {
   position: relative;
   float: left;
-  margin-left: 83px;
+  margin-left: 70px;
   margin-top: 50px;
   padding: 0 0 0 62px;
 }
@@ -757,14 +757,14 @@ a.header-search {
   color: #F66D34;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 22px;
+  padding: 18px;
   position: relative;
   
 }
 
 .mainmenu-area .navbar {
   padding: 0;
-  left: 5rem;
+  left:8rem;
 }
 
 .mainmenu-area .navbar-nav .active.nav-link {

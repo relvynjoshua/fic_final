@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #F03322;
+    background-color: #F66D34;
     color: #fff;
     position: relative;
 }
@@ -46,7 +46,7 @@ body {
 
 .header .back-button {
     background-color: #fff;
-    color: #F03322;
+    color: #F66D34;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -54,7 +54,7 @@ body {
 }
 
 .header .back-button:hover {
-    background-color: #F03322;
+    background-color: #F66D34;
     color: #fff;
 }
 
@@ -68,7 +68,7 @@ body {
     right: 30px;
     background-color: #fff; 
     padding: 5px 10px; 
-    border: 1px solid #F03322;
+    border: 1px solid #F66D34;
     font-weight: bold;
     color: #000000;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .section h3 {
-    border-bottom: 2px solid #F03322;
+    border-bottom: 2px solid #F66D34;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -101,7 +101,7 @@ h1 {
     display: none;
     background-color: #e9ecef;
     padding: 15px;
-    border: 1px solid #F03322;
+    border: 1px solid #F66D34;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -138,16 +138,16 @@ h1 {
         }
 
 .container1 h2 {
-            border-bottom: 2px solid #F03322;
+            border-bottom: 2px solid #F66D34;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            color: #F03322;
+            color: #F66D34;
             text-align: center;
         }
 
 .container1 p {
             margin: 10px 0 20px 0;
-            color: #F03322;
+            color: #F66D34;
             text-align: center;
             margin-top: 40px;
             font-size: 18px;
@@ -177,14 +177,14 @@ ul li a {
 
 ul li a:hover {
     color: #ffffff; 
-    background-color: #F03322; 
+    background-color: #F66D34; 
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
 }
 
 .btn {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #F03322;
+            background-color: #F66D34;
             color: white;
             border: none;
             border-radius: 5px;
@@ -192,7 +192,7 @@ ul li a:hover {
         }
 
 .btn:hover {
-            background-color: #F03322;
+            background-color: #F66D34;
         }
 
 .welcome-btn {
@@ -206,7 +206,7 @@ ul li a:hover {
 <body>
     <div id="main">
         <div class="header">
-            <a href="form-page.blade.php">
+            <a href="{{ url('/form-page') }}">
                 <img src="assets/img/fic.jpg" alt="Logo" class="clickable-img">
             </a>
             <div class="document-code">DPM-USTP-FIC-004</div>
@@ -236,18 +236,18 @@ ul li a:hover {
                 <p>Please fill out the following forms:</p>
 
                 <ul>
-                    <li><a href="FM-USTP-FIC-002.blade.php">Consultation/Advisory Form (FM-USTP-FIC-002)</a></li>
-                    <li><a href="FM-USTP-FIC-003.blade.php">Technical Advisory Services Evaluation Form (FM-USTP-FIC-003)</a></li>
+                    <li><a href="{{ url('/form-002') }}">Consultation/Advisory Form (FM-USTP-FIC-002)</a></li>
+                    <li><a href="{{ url('/form-003') }}">Technical Advisory Services Evaluation Form (FM-USTP-FIC-003)</a></li>
                 </ul>
 
                 <div class="welcome-btn">
-                    <a href="form-page.blade.php" class="btn"><i class="icofont icofont-caret-left"></i>Back</a>
+                    <a href="{{ url('/form-page') }}" class="btn"><i class="icofont icofont-caret-left"></i>Back</a>
     </div>
 
     <!-- JavaScript for additional functionality -->
     <script>
         function goBack() {
-            window.location.href = 'form-page.blade.php';
+            window.location.href = '{{ url('/form-page') }}';
         }
     </script>
 
