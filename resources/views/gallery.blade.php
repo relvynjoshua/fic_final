@@ -108,7 +108,11 @@
                   <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                      <div class="logo">
                         <a href="{{ url('/') }}">
+<<<<<<< HEAD
                         <img class="img-fluid" src="{{ asset('/img/fic.jpg') }}" alt="">
+=======
+                        <img class="img-fluid" src="{{ asset('assets/img/fic.jpg') }}" alt="">
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                         </a>
                      </div>
                   </div>

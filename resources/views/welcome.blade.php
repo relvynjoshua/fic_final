@@ -26,7 +26,46 @@
    <link href="{{ asset('css/venobox.min.css') }}" rel="stylesheet">
 </head>
 
+<<<<<<< HEAD
 <body id="main">
+=======
+      <!-- START HEADER SECTION -->
+      <header class="main-header">
+         
+         <!-- START NAVIGATION AREA -->
+         <div class="sticky-menu">
+            <div class="mainmenu-area">
+               <div class="auto-container">
+                  <div class="row">
+                     <div class="col-lg-9 d-none d-lg-block d-md-none">
+                        <nav class="navbar navbar-expand-lg justify-content-left">
+                           <ul class="navbar-nav">
+                              <li class="active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                              <li><a href="{{ url('/about') }}" class="nav-link">About Us</a></li>
+                              <li class="dropdown"><a class="nav-link" href="{{ url('/services') }}">Services</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/documents') }}">Documents</a></li>
+                                    <li><a href="{{ url('/form-page') }}">Forms</a></li>
+                                    <li><a href="{{ url('/single-service') }}">Facilities</a></li>
+                                 </ul>    
+                              </li>
+                              <li><a href="{{ url('/gallery') }}" class="nav-link">Gallery</a></li>
+                              <li class="dropdown"><a class="nav-link" href="#">Pages</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/administration') }}">Administration</a></li>
+                                    <li><a href="{{ url('/') }}">FAQ</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="{{ url('/news') }}" class="nav-link" >News</a></li>
+                              <li><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
+                              <li><a href="{{ url('/sign-in-up') }}" class="nav-link">Login</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="col-lg-3 d-none d-lg-block d-md-none text-right">
+                        <a href="#" class="header-search"  data-toggle="modal" data-target=".header-search-modal"><i class="icofont-search-2"></i></a>
+                     </div>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
 
    <!-- START PRELOADER -->
    <div id="page-preloader">
@@ -104,6 +143,7 @@
       </div>
       <!-- END NAVIGATION AREA -->
 
+<<<<<<< HEAD
       <!-- START LOGO AREA -->
       <div class="logo-area">
          <div class="auto-container">
@@ -111,6 +151,15 @@
                <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
                   <div class="logo">
                      <a href="{{ url('/') }}">
+=======
+         <!-- START LOGO AREA -->
+         <div class="logo-area">
+            <div class="auto-container">
+               <div class="row">
+                  <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
+                     <div class="logo">
+                        <a href="{{ url('/') }}">
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                         <img class="img-fluid" src="{{ asset('img/fic.jpg') }}" alt="">
                      </a>
                   </div>
@@ -221,11 +270,134 @@
                </div>
             </div>
          </div>
+<<<<<<< HEAD
          <!-- end single slider -->
          <div class="home-single-slide" data-background="{{ asset('/img/bldg/bldg1_night.jpg') }}">
             <div class="home-single-slide-overlay"></div>
             <div class="home-single-slide-inner">
                <div class="container">
+=======
+      </section>
+      <!-- END SLIDER SECTION  -->
+
+      <!-- START WELCOME SECTION -->
+      <section id="habout" class="welcome-section-padding">
+         <div class="auto-container">
+            <div class="row">
+               <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-lg-0 mb-5">
+                  <div class="about-wel-des">
+                     <h6 class="theme-color"><i class="icofont-plus"></i> Food Innovation Center Info</h6>
+                     <h2 class="my-4">ABOUT US</h2>
+                     <p>The Northern Mindanao Food Innovation Center (NMFIC) was established in 2015 through the collaboration of DOST, DTI, USTP (formerly MUST), FOPANORMIN, and the Office of the 2nd Congressional District of CDO. The Center which is located at the University of Science and Technology of Southern Philippines (USTP) Cagayan de Oro Campus serves as a technology hub for innovations, research and development (R&D), and support services for the food industry in Northern Mindanao.</p>
+
+                     <p class="my-4"><b>It is envisioned that through the Center, support technical expertise, relevant science and technology (S&T) services, infrastructure and facility requirements, will be more accessible for the micro-, small- and medium-scale enterprises (MSMEs) in the food industry at the countryside.</b></p>
+
+                     
+                     <div class="about-btn wow fadeInUp">
+                        <a href="#" class="about-us-into-btn-2 mr-2">Read More</a>
+                        <a href="#" class="about-us-into-btn-icon"><i class="icofont icofont-caret-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col -->
+               <div class="col-lg-6 col-md-6 col-12">
+                  <div class="about-wel-img-sec img-overlay">
+                     <a class="venobox" data-autoplay="true" data-vbtype="video" data-title="Intro Video" data-gall="videoh" href="https://www.youtube.com/embed/Oq61TxejZ5g"><i class="icofont-play-alt-2"></i></a>
+                     <div class="img-wrap">
+                        <img class="img-fluid" src="{{ asset('public/img/bg/home-about-img.jpg') }}" alt="">
+
+                     </div>
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+         </div>
+         <!--- END CONTAINER -->
+      </section>
+      <!-- END WELCOME SECTION -->
+
+      <!-- START SERVICES SECTION -->
+      <section id="services" class="section-padding">
+         <div class="auto-container">
+            <div class="row">
+               <div class="col-lg-7 col-md-7 col-12 mx-auto text-center">
+                  <div class="section-title">
+                     <h2>Current Achievements</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- end section title -->
+            <div class="row">
+               <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center mb-lg-0 mb-md-0 mb-sm-4 mb-4">
+                  <div class="single-service-item shadow bg-white">
+                     <div class="icon-holder mb-3">
+                        <div class="service-item-icon-bg">
+                           <i class="icofont-building-alt"></i> 
+                        </div>
+                     </div>
+                     <div class="service-item-text-holder">
+                        <h4>Advance Technologies</h4>
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod facer possim assum.</p>
+                        <a class="thm-btn" href="{{ url('/services') }}">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- End single service item -->
+               <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center mb-lg-0 mb-md-0 mb-sm-4 mb-4">
+                  <div class="single-service-item shadow bg-white">
+                     <div class="icon-holder mb-3">
+                        <div class="service-item-icon-bg">
+                           <i class="icofont-user"></i>
+                        </div>
+                     </div>
+                     <div class="service-item-text-holder">
+                        <h4>Amazing Administration</h4>
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod facer possim assum.</p>
+                        <a class="thm-btn" href="{{ url('/administration') }}">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- End single service item -->
+               <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center mb-lg-0 mb-md-0">
+                  <div class="single-service-item shadow bg-white">
+                     <div class="icon-holder mb-3">
+                        <div class="service-item-icon-bg">
+                           <i class="icofont-award"></i>
+                        </div>
+                     </div>
+                     <div class="service-item-text-holder">
+                        <h4>Recognition and Awards</h4>
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod facer possim assum.</p>
+                        <a class="thm-btn" href="{{ url('/gallery') }}">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- End single service item -->
+            </div>
+         </div>
+         <!--- END CONTAINER -->
+      </section>
+      <!-- END SERVICES SECTION -->
+
+      <!-- START COUNTER SECTION -->
+      <section id="counter" class="counter-padding overlay section-back-image" data-background="{{ asset('public/img/bg/ustp3.png') }}">
+         <div class="auto-container">
+            <div class="row">
+               <div class="col-lg-8 col-md-8 col-12 mx-lg-auto mx-md-auto mx-0">
+                  <div class="counter-info">
+                     <div class="counter-icon">
+                        <i class="icofont-history"></i>
+                     </div>
+                     <div class="counter-des">
+                        <h2><span>Innovating food, </span> <br> for the future</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-5 wow fadeInUp">
+               <div class="col-lg-8 col-md-8 col-12 mx-lg-auto mx-md-auto mx-0 text-lg-left text-md-left text-center">
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                   <div class="row">
                      <div class="col-lg-8">
                         <div class="home-single-slide-dec">
@@ -1142,6 +1314,7 @@
    </footer>
    <!-- END FOOTER -->
 
+<<<<<<< HEAD
    <!-- Latest jQuery -->
    <script src="{{ asset('js/app.js') }}"></script>
    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -1161,5 +1334,138 @@
    <script src="{{ asset('js/venobox.min.js') }}"></script>
    <script src="{{ asset('js/wow.min.js') }}"></script>
 </body>
+=======
+      <!-- START FOOTER -->
+      <footer class="footer-section">
+         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{ asset('public/img/bg/fic-footer.jpg') }}">
+            <div class="auto-container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <div class="logo">
+                           <a href="index.blade.php">
+                              <img class="img-fluid" src="{{ asset('public/img/ff.png') }}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="img-menu float-lg-left float-none mt-3">
+                           <div class="footer-social">
+                              <ul>
+                                 <li><a class="social-fb" href="https://www.facebook.com/nmficustpcdo"><i class="icofont-facebook"></i></a></li>
+                                 <li><a class="social-tw" href="#"><i class="icofont-twitter"></i></a></li>
+                                 <li><a class="social-gp" href="#"><i class="icofont-youtube"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Latest Posts</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="singleRecpost">
+                           <img src="{{ asset('public/img/NMFIC2.jpg') }}" alt="" class="img-fluid">
+                           <h6 class="recTitle">
+                              <a href="#">USTP CDO COVID-19 Initiative</a>
+                           </h6>
+                           <p class="posted-on">1 APRIL 2020</p>
+                        </div>
+                        <div class="singleRecpost">
+                           <img src="{{ asset('public/img/NMFIC4.jpg') }}" alt="" class="img-fluid">
+                           <h6 class="recTitle">
+                              <a href="#">FIC produced snacks for COVID-19 frontliners</a>
+                           </h6>
+                           <p class="posted-on">13 APRIL 2020</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Useful Links</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <ul>
+                           <li><a href="{{ url('/documents') }}"><i class="icofont-circled-right"></i> Documents</a></li>
+                           <li><a href="{{ url('/services') }}"><i class="icofont-circled-right"></i> Latest Services</a></li>
+                           <li><a href="{{ url('/administration') }}"><i class="icofont-circled-right"></i> Administration</a></li>
+                           <li><a href="{{ url('/gallery') }}"><i class="icofont-circled-right"></i> Image Gallery</a></li>
+                           <li><a href="{{ url('/') }}"><i class="icofont-circled-right"></i> FAQs</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-sm-0 mb-0">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Get In Touch</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="footer-contact-widget">
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-pin"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>Claro M. Recto Ave, Cagayan de Oro</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-smart-phone"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>+639667811333</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-envelope"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>ustp.fic.edu.ph</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-clock-time"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>Mon - Fri : 08:00 - 05:00</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+         </div>
+         <div id="bottom-footer" class="bg-gray">
+            <div class="auto-container">
+               <div class="row mb-lg-0 mb-md-4 mb-4">
+                  <div class="col-lg-6 col-md-12 col-12">
+                     <p class="copyright-text">Copyright © 2024 <a href="#">USTP - FIC</a> | All Rights Reserved</p>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-6 col-md-12 col-12">
+                     <div class="footer-menu">
+                        <ul>
+                           <li><a href="{{ url('/index') }}">Home</a></li>
+                           <li><a href="{{ url('/about') }}">About Us</a></li>
+                           <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- END FOOTER -->
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
 
 </html>

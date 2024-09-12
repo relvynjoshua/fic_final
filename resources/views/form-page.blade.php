@@ -245,6 +245,7 @@
     </div>
     <!-- END NAVIGATION AREA -->
 
+<<<<<<< HEAD
     <!-- START LOGO AREA -->
     <div class="logo-area">
       <div class="auto-container">
@@ -254,6 +255,69 @@
               <a href="{{ url('/') }}">
                 <img class="img-fluid" src="{{asset('img/fic.jpg') }}" alt="">
               </a>
+=======
+        <!-- START HEADER SECTION -->
+        <header class="main-header">
+            
+            <!-- START NAVIGATION AREA -->
+            <div class="sticky-menu">
+            <div class="mainmenu-area">
+                <div class="auto-container">
+                    <div class="row">
+                        <div class="col-lg-9 d-none d-lg-block d-md-none">
+                        <nav class="navbar navbar-expand-lg justify-content-left">
+                          <ul class="navbar-nav">
+                              <li class="active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                              <li><a href="{{ url('/about') }}" class="nav-link">About Us</a></li>
+                              <li class="dropdown"><a class="nav-link" href="{{ url('/services') }}">Services</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/documents') }}">Documents</a></li>
+                                    <li><a href="{{ url('/form-page') }}">Forms</a></li>
+                                    <li><a href="{{ url('/single-service') }}">Facilities</a></li>
+                                 </ul>    
+                              </li>
+                              <li><a href="{{ url('/gallery') }}" class="nav-link">Gallery</a></li>
+                              <li class="dropdown"><a class="nav-link" href="#">Pages</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/administration') }}">Administration</a></li>
+                                    <li><a href="{{ url('/') }}">FAQ</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="{{ url('/news') }}" class="nav-link" >News</a></li>
+                              <li><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
+                              <li><a href="{{ url('/sign-in-up') }}" class="nav-link">Login</a></li>
+                           </ul>
+                        </nav>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block d-md-none text-right">
+                        <a href="#" class="header-search"  data-toggle="modal" data-target=".header-search-modal"><i class="icofont-search-2"></i></a>
+                        </div>
+
+                        <!-- search modal -->
+                        <div class="modal fade header-search-modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal"><i class="icofont-close-line"></i></button>
+                                <form class="header-search-box">
+                                <div class="header-search-body row no-gutters align-items-center">
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control" type="search" placeholder="Search...">
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-lg header-search-btn" type="submit"><i class="icofont-search-2"></i></button>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- end search modal -->
+
+                    </div>
+                </div>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
             </div>
           </div>
           <!-- end col -->
@@ -265,12 +329,54 @@
               <h5>Connect With Us</h5>
               <p>ustp.fic.edu.ph</p>
             </div>
+<<<<<<< HEAD
             <div class="header-info-box">
               <div class="header-info-icon">
                 <i class="icofont-headphone-alt-3"></i>
               </div>
               <h5>Call For Inquiry</h5>
               <p>856-8159</p>
+=======
+            <!-- END NAVIGATION AREA --> 
+
+            <!-- START LOGO AREA -->
+            <div class="logo-area">
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
+                        <div class="logo">
+                        <a href="{{ url('/') }}">
+                        <img class="img-fluid" src="{{asset ('img/fic.jpg') }}" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-9 col-12">
+                        <div class="header-info-box">
+                        <div class="header-info-icon">
+                            <i class="icofont-envelope"></i>
+                        </div>
+                        <h5>Connect With Us</h5>
+                        <p>ustp.fic.edu.ph</p>
+                        </div>
+                        <div class="header-info-box">
+                        <div class="header-info-icon">
+                            <i class="icofont-headphone-alt-3"></i>
+                        </div>
+                        <h5>Call For Inquiry</h5>
+                        <p>856-8159</p>
+                        </div>
+                        <div class="header-info-box">
+                        <div class="header-info-icon">
+                            <i class="icofont-eye-open"></i>
+                        </div>
+                        <h5>Opening hours</h5>
+                        <p>Mon - Fri : 09:00 - 16:00</p>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
             </div>
             <div class="header-info-box">
               <div class="header-info-icon">

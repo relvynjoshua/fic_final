@@ -27,7 +27,46 @@
    <link href="{{ asset('css/venobox.min.css') }}" rel="stylesheet">
 </head>
 
+<<<<<<< HEAD
 <body>
+=======
+      <!-- START HEADER SECTION -->
+      <header class="main-header">
+         
+         <!-- START NAVIGATION AREA -->
+         <div class="sticky-menu">
+            <div class="mainmenu-area">
+               <div class="auto-container">
+                  <div class="row">
+                     <div class="col-lg-9 d-none d-lg-block d-md-none">
+                        <nav class="navbar navbar-expand-lg justify-content-left">
+                           <ul class="navbar-nav">
+                              <li class="active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                              <li><a href="{{ url('/about') }}" class="nav-link">About Us</a></li>
+                              <li class="dropdown"><a class="nav-link" href="{{ url('/services') }}">Services</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/documents') }}">Documents</a></li>
+                                    <li><a href="{{ url('/form-page') }}">Forms</a></li>
+                                    <li><a href="{{ url('/single-service') }}">Facilities</a></li>
+                                 </ul>    
+                              </li>
+                              <li><a href="{{ url('/gallery') }}" class="nav-link">Gallery</a></li>
+                              <li class="dropdown"><a class="nav-link" href="#">Pages</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/administration') }}">Administration</a></li>
+                                    <li><a href="{{ url('/') }}">FAQ</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="{{ url('/news') }}" class="nav-link" >News</a></li>
+                              <li><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
+                              <li><a href="{{ url('/sign-in-up') }}" class="nav-link">Login</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="col-lg-3 d-none d-lg-block d-md-none text-right">
+                        <a href="#" class="header-search"  data-toggle="modal" data-target=".header-search-modal"><i class="icofont-search-2"></i></a>
+                     </div>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
 
    <!-- START PRELOADER -->
    <div id="page-preloader">
@@ -323,8 +362,13 @@
                <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
                   <div class="footer-widget-title col-12 p-0">
                      <div class="logo">
+<<<<<<< HEAD
                         <a href="index.blade.php">
                            <img class="img-fluid" src="{{asset('img/ff.png') }}" alt="">
+=======
+                        <a href="{{ url('/') }}">
+                        <img class="img-fluid" src="{{asset ('img/fic.jpg') }}" alt="">
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                         </a>
                      </div>
                   </div>
@@ -446,6 +490,150 @@
                <!-- end col -->
             </div>
          </div>
+<<<<<<< HEAD
+=======
+      </section>
+      <!-- END CONTACT PAGE SECTION -->
+
+      <!-- START MAP SECTION -->
+      <div class="section-padding py-0">
+         <!-- start google map -->
+         <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15784.902401009245!2d124.6766477!3d8.4774312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff3efcbef9025%3A0xc8756bf5087e18aa!2sCollege%20Of%20Technology%20USTP!5e0!3m2!1sen!2sph!4v1712330633720!5m2!1sen!2sph"></iframe>
+         </div>
+         <!-- end google map -->
+      </div>
+      <!-- END MAP SECTION -->
+
+      <!-- START FOOTER -->
+      <footer class="footer-section">
+         <div id="top-footer" class="overlay-2 section-back-image-2" data-background="{{asset ('img/bg/fic-footer.jpg') }}">
+            <div class="auto-container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <div class="logo">
+                           <a href="index.blade.php">
+                              <img class="img-fluid" src="{{asset ('img/ff.png') }}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="img-menu float-lg-left float-none mt-3">
+                           <div class="footer-social">
+                              <ul>
+                                 <li><a class="social-fb" href="https://www.facebook.com/nmficustpcdo"><i class="icofont-facebook"></i></a></li>
+                                 <li><a class="social-tw" href="#"><i class="icofont-twitter"></i></a></li>
+                                 <li><a class="social-gp" href="#"><i class="icofont-youtube"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Latest Posts</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="singleRecpost">
+                           <img src="{{asset ('img/NMFIC2.jpg') }}" alt="" class="img-fluid">
+                           <h6 class="recTitle">
+                              <a href="#">USTP CDO COVID-19 Initiative</a>
+                           </h6>
+                           <p class="posted-on">1 APRIL 2020</p>
+                        </div>
+                        <div class="singleRecpost">
+                           <img src="{{asset ('img/NMFIC4.jpg') }}" alt="" class="img-fluid">
+                           <h6 class="recTitle">
+                              <a href="#">FIC produced snacks for COVID-19 frontliners</a>
+                           </h6>
+                           <p class="posted-on">13 APRIL 2020</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-sm-5 mb-5">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Useful Links</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                           <ul>
+                              <li><a href="{{ url('/documents') }}"><i class="icofont-circled-right"></i> Documents</a></li>
+                              <li><a href="{{ url('/services') }}"><i class="icofont-circled-right"></i> Latest Services</a></li>
+                              <li><a href="{{ url('/administration') }}"><i class="icofont-circled-right"></i> Administration</a></li>
+                              <li><a href="{{ url('/gallery') }}"><i class="icofont-circled-right"></i> Image Gallery</a></li>
+                              <li><a href="{{ url('/') }}"><i class="icofont-circled-right"></i> FAQs</a></li>
+                           </ul>
+                     </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-lg-0 mb-md-0 mb-sm-0 mb-0">
+                     <div class="footer-widget-title col-12 p-0">
+                        <h4>Get In Touch</h4>
+                     </div>
+                     <div class="footer-widget-inner">
+                        <div class="footer-contact-widget">
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-pin"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>Claro M. Recto Ave, Cagayan de Oro</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-smart-phone"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>+639667811333</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-envelope"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>ustp.fic.edu.ph</p>
+                              </div>
+                           </div>
+                           <div class="footer-contact-sin">
+                              <div class="footer-contact-sin-left">
+                                 <i class="icofont-clock-time"></i>
+                              </div>
+                              <div class="footer-contact-sin-right">
+                                 <p>Mon - Fri : 08:00 - 05:00</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+            </div>
+         </div>
+         <div id="bottom-footer" class="bg-gray">
+            <div class="auto-container">
+               <div class="row mb-lg-0 mb-md-4 mb-4">
+                  <div class="col-lg-6 col-md-12 col-12">
+                     <p class="copyright-text">Copyright © 2024 <a href="#">USTP - FIC</a> | All Rights Reserved</p>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-6 col-md-12 col-12">
+                     <div class="footer-menu">
+                           <ul>
+                              <li><a href="{{ url('/index') }}">Home</a></li>
+                              <li><a href="{{ url('/about') }}">About Us</a></li>
+                              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                           </ul>
+                     </div>
+                  </div>
+                  <!-- end col -->
+            </div>
+         </div>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
       </div>
    </footer>
    <!-- END FOOTER -->

@@ -143,6 +143,7 @@
          </div>
          <!-- END LOGO AREA -->
 
+<<<<<<< HEAD
          <!-- START TOP AREA -->
          <div class="top-area">
             <div class="auto-container">
@@ -155,6 +156,37 @@
                            <li><a href="#"><i class="icofont-youtube"></i></a></li>
                            <li><a href="#"><i class="icofont-pinterest"></i></a></li>
                         </ul>
+=======
+         <!-- START NAVIGATION AREA -->
+         <div class="sticky-menu">
+            <div class="mainmenu-area">
+               <div class="auto-container">
+                  <div class="row">
+                     <div class="col-lg-9 d-none d-lg-block d-md-none">
+                        <nav class="navbar navbar-expand-lg justify-content-left">
+                           <ul class="navbar-nav">
+                              <li class="active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                              <li><a href="{{ url('/about') }}" class="nav-link">About Us</a></li>
+                              <li class="dropdown"><a class="nav-link" href="{{ url('/services') }}">Services</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/documents') }}">Documents</a></li>
+                                    <li><a href="{{ url('/form-page') }}">Forms</a></li>
+                                    <li><a href="{{ url('/single-service') }}">Facilities</a></li>
+                                 </ul>    
+                              </li>
+                              <li><a href="{{ url('/gallery') }}" class="nav-link">Gallery</a></li>
+                              <li class="dropdown"><a class="nav-link" href="#">Pages</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="{{ url('/administration') }}">Administration</a></li>
+                                    <li><a href="{{ url('/') }}">FAQ</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="{{ url('/news') }}" class="nav-link" >News</a></li>
+                              <li><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
+                              <li><a href="{{ url('/sign-in-up') }}" class="nav-link">Login</a></li>
+                           </ul>
+                        </nav>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                      </div>
                   </div>
                   <!-- end col -->
@@ -524,7 +556,11 @@
                      <div class="footer-widget-title col-12 p-0">
                         <div class="logo">
                            <a href="{{ url('/') }}">
+<<<<<<< HEAD
                               <img class="img-fluid" src="{{asset('img/ff.png') }}" alt="">
+=======
+                              <img class="img-fluid" src="{{asset ('img/ff.png') }}" alt="">
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                            </a>
                         </div>
                      </div>
@@ -572,6 +608,7 @@
                         <h4>Useful Links</h4>
                      </div>
                      <div class="footer-widget-inner">
+<<<<<<< HEAD
                         <ul>
                            <li><a href="{{ url('/documents') }}"><i class="icofont-circled-right"></i> Documents</a>
                            </li>
@@ -583,6 +620,15 @@
                            </li>
                            <li><a href="{{ url('/') }}"><i class="icofont-circled-right"></i> FAQs</a></li>
                         </ul>
+=======
+                           <ul>
+                              <li><a href="{{ url('/documents') }}"><i class="icofont-circled-right"></i> Documents</a></li>
+                              <li><a href="{{ url('/services') }}"><i class="icofont-circled-right"></i> Latest Services</a></li>
+                              <li><a href="{{ url('/administration') }}"><i class="icofont-circled-right"></i> Administration</a></li>
+                              <li><a href="{{ url('/gallery') }}"><i class="icofont-circled-right"></i> Image Gallery</a></li>
+                              <li><a href="{{ url('/') }}"><i class="icofont-circled-right"></i> FAQs</a></li>
+                           </ul>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                      </div>
                   </div>
                   <!-- end col -->
@@ -640,12 +686,21 @@
                   <!-- end col -->
                   <div class="col-lg-6 col-md-12 col-12">
                      <div class="footer-menu">
+<<<<<<< HEAD
                         <ul>
                            <li><a href="{{ url('/index') }}">Home</a></li>
                            <li><a href="{{ url('/about') }}">About Us</a></li>
                            <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                            <li><a href="#">Privacy Policy</a></li>
                         </ul>
+=======
+                           <ul>
+                              <li><a href="{{ url('/index') }}">Home</a></li>
+                              <li><a href="{{ url('/about') }}">About Us</a></li>
+                              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                           </ul>
+>>>>>>> 75b9998c15ca61820b543d4543bff0cf07577713
                      </div>
                   </div>
                   <!-- end col -->
